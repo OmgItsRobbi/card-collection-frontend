@@ -6,7 +6,7 @@ export default function Card(props: CardProps) {
     return (
     <div
     onClick={onChange}
-    className="shadow-xl rounded col-span-3 border p-4 shadow text-lime-200"
+    className="shadow-xl rounded col-span-3 border border-black p-4 shadow text-blue-900 bg-green-300"
   >
         id: {id} <br />
         item_name: {name}

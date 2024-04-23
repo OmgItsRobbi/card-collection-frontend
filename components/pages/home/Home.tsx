@@ -11,8 +11,8 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import Navbar from "@/components/ui/navbar";
 import { TUnit } from "@arkejs/client";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 interface ICard extends TUnit {
@@ -74,16 +74,12 @@ export default function HomePage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24 bg-background">
-      HOMEPAGE
-      <Link
-        href="/logout"
-        className="absolute right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100 focus:outline-none disabled:pointer-events-none"
-      >
-        <Button>Sign Out</Button>
-      </Link>
-      <Link href="/collection">
-        <Button>Open Collection</Button>
-      </Link>
+      <Navbar/>
+      <div className="mt-6 mb-14">
+        <h1 className="fixed left-20 font-bold text-7xl">
+          Welcome <span className="text-blue-900">username</span>!
+        </h1>
+      </div>
       <div className="flex flex-row items-center justify-center gap-4 p-4">
         <Button onClick={handlePrevious}>Previous</Button>
         <Button onClick={handleNext}>Next</Button>
