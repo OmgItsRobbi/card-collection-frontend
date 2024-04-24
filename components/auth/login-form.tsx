@@ -18,28 +18,25 @@ const LoginForm = () => {
 
   return (
     <div>
-      <form
-        onSubmit={onSignIn}
-        className="m-auto grid w-[400px] gap-4 pt-[5%]"
-      >
+      <form onSubmit={onSignIn} className="m-auto grid w-[400px] gap-4 pt-[5%]">
         <input
           type="text"
           name="username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
           placeholder="Username"
-          className="border rounded-md px-4 py-2"
+          className="border rounded-md px-4 py-2 shadow"
         />
         <input
           value={password}
           type="password"
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Password"
-          className="border rounded-md px-4 py-2"
+          className="border rounded-md px-4 py-2 shadow"
         />
         <button
           type="submit"
-          className="bg-green-300 hover:bg-emerald-500 text-black hover:text-white font-bold rounded-md px-4 py-2"
+          className="bg-green-300 hover:bg-emerald-500 text-black hover:text-white font-bold rounded-md px-4 py-2 shadow"
         >
           Login
         </button>

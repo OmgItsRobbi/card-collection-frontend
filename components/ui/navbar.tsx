@@ -17,7 +17,7 @@ const Navigation: React.FC = () => {
             Collection
           </button>
         </Link>
-        <Link href="">
+        <Link href="/decks">
           <button className="text-white hover:text-gray-300 text-lg">
             Decks
           </button>
@@ -29,7 +29,9 @@ const Navigation: React.FC = () => {
         </Link>
         <div className="absolute right-4">
           <Link href="/logout">
-            <button className="text-white hover:text-gray-300 font-bold mr-3 text-lg">Sign Out</button>
+            <button className="text-white hover:text-gray-300 font-bold mr-3 text-lg">
+              Sign Out
+            </button>
           </Link>
         </div>
       </div>
