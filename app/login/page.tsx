@@ -55,7 +55,7 @@ export default function Page() {
       </div>
       <div className="flex justify-center items-center pt-16">
         <h1 className="font-bold text-7xl">
-          Card <span className="text-emerald-500">Collector</span>
+          Card <span className="text-indigo-900">Collector</span>
         </h1>
         <div className="fixed top-10 right-3">
           <Image

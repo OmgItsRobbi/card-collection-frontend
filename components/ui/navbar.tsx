@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navigation: React.FC = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 flex justify-center items-center px-8 py-6 bg-emerald-500 text-white shadow-md">
+    <nav className="fixed top-0 left-0 right-0 z-10 flex justify-center items-center px-8 py-6 bg-secondary text-white shadow-md">
       <Link href={"/"}>
         <h1 className="text-3xl font-bold mr-2">Card Colletion</h1>
       </Link>

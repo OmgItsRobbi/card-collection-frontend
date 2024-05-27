@@ -36,7 +36,7 @@ const LoginForm = () => {
         />
         <button
           type="submit"
-          className="bg-green-300 hover:bg-emerald-500 text-black hover:text-white font-bold rounded-md px-4 py-2 shadow"
+          className="bg-secondary hover:bg-indigo-900 text-white font-bold rounded-md px-4 py-2 shadow"
         >
           Login
         </button>
